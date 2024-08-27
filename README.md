@@ -4,7 +4,7 @@ This is a small PHP/Composer package (intended to be used by WordPress plugin/th
 
 Most bulk media importer plugins seem to only support importing posts/pages/CPTs, with the option to import images/media as long as they're attached to the posts being imported; whereas this package simply uploads the images to the WP Media Library without requiring you to attach them to posts/pages.
 
-_Note:_ This plugin does not expose anything via the WP admin UI -- you must be somewhat comfortable with PHP to use it.
+**Note:** This plugin does not expose anything via the WP admin UI -- you must be somewhat comfortable with PHP to use it.
 
 ## Installation
 
@@ -64,7 +64,7 @@ if (defined('WP_CLI') && WP_CLI) {
 }
 ```
 
-_Note_:
+**Note**:
 
 - The CSV is expected to have a `src` column referencing the external image URLs
 - The CSV also expects alt text, captions, and descriptions to be under the columns `alt`, `caption`, `description`, respectively.
